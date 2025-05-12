@@ -1,0 +1,147 @@
+/* General styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #004080;
+}
+
+/* Navbar */
+
+.bg-maroon {
+  background-color: #800000 !important;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+}
+.navbar .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+.navbar .nav-link {
+  color: #000 !important; /* Use black text for visibility */
+}
+
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background-color: #f61b1b;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.bg-light.py-5.text-center {
+  background-image: url('images/school-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 100px 20px;
+}
+
+.bg-light h1 {
+  font-size: 3rem;
+}
+
+/* Content spacing */
+.container h1 {
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.btn-primary, .btn-success {
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  background-color: #004080;
+  border-color: #004080;
+}
+
+/* Footer */
+footer {
+  background-color: #004080 !important;
+  color: white;
+  margin-top: 50px;
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: #004080;
+}
+
+
+
+
+
+/* Gallery */
+.gallery img {
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+/* Contact Form */
+form .form-control {
+  border-radius: 8px;
+  border-color: #ddd;
+  box-shadow: none;
+  transition: 0.3s;
+}
+
+form .form-control:focus {
+  border-color: #0066cc;
+  box-shadow: 0 0 5px rgba(0, 102, 204, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bg-light h1 {
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    margin: 10px 0;
+  }
+}
